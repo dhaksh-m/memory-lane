@@ -12,12 +12,12 @@ const manualMessages = [
   },
   {
     id: "2",
-    text: "College life was crazy and unforgettable!",
+    text: "College life will be crazy and unforgettable!",
     name: "Anonymous",
   },
   {
     id: "3",
-    text: "Miss these days already 🥲",
+    text: "We will miss these days 🥲",
     name: "Anonymous",
   },
   {
