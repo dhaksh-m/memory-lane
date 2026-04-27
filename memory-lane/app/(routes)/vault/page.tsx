@@ -30,7 +30,7 @@ const images = [
 
   { src: "/memories/trad1.jpg", event: "TRADITIONAL DAY" },
   { src: "/memories/trad2.jpg", event: "TRADITIONAL DAY" },
-  { src: "/memories/trad2.jpg", event: "TRADITIONAL DAY" },
+  { src: "/memories/trad3.jpg", event: "TRADITIONAL DAY" },
 
   { src: "/memories/dj1.jpg", event: "DJ NIGHT" },
   { src: "/memories/dj2.jpg", event: "DJ NIGHT" },
