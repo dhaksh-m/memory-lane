@@ -78,7 +78,7 @@ export default function YearbookPage() {
         {/* Title */}
         <div className="text-center mb-16">
         <h1 className="text-4xl md:text-6xl font-semibold mb-4">
-        The CLASS of 26✨
+        The CLASS of 29✨
         </h1>
 
       <div>
