@@ -25,6 +25,11 @@ const manualMessages = [
     text: "From strangers to family 💯",
     name: "Anonymous",
   },
+  {
+    id: "5",
+    text: "Our memories = pure happiness ✨ No matter where life takes us, our memories will always keep us close. Friends like you make every moment special.",
+    name: "Pallavi",
+  },
 ];
 
 export default function WallPage() {

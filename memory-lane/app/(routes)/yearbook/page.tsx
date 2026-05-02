@@ -69,28 +69,12 @@ const memories = [
 ];
 
 
-export default function YearbookPage() {
-  return (
-    <main className="min-h-screen bg-[#020617] text-white pt-32 pb-24 px-6 md:px-12">
-
-      <div className="max-w-7xl mx-auto">
-
-        {/* Title */}
-        <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-6xl font-semibold mb-4">
-        The CLASS of 29✨
-        </h1>
-
-      <div>
-      <p className="text-gray-400">
-      The Yearbook .
-      </p>
-
-      <p className="text-gray-500 text-sm mt-2">
-      Our memories, frozen in time.
-    </p>
-  </div>
-</div>
+<PageIntro
+  title="The Class of '29 ✨"
+  subtitle="A collection of faces, stories, and moments that defined us. 
+  Late-night laughs, silent struggles, and friendships that turned into forever. 
+  This isn’t just a yearbook — it’s a piece of who we were."
+/>
 
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
@@ -123,7 +107,3 @@ export default function YearbookPage() {
 
         </div>
 
-      </div>
-    </main>
-  );
-}

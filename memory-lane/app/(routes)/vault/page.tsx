@@ -27,6 +27,7 @@ const images = [
 
   { src: "/memories/auto1.jpg", event: "AUTO EXPO" },
   { src: "/memories/auto2.jpg", event: "AUTO EXPO" },
+  { src: "/memories/auto3.jpg", event: "AUTO EXPO" },
 
   { src: "/memories/trad1.jpg", event: "TRADITIONAL DAY" },
   { src: "/memories/trad2.jpg", event: "TRADITIONAL DAY" },
@@ -40,13 +41,18 @@ const images = [
   { src: "/memories/dj6.jpg", event: "DJ NIGHT" },
   { src: "/memories/dj7.jpg", event: "DJ NIGHT" },
   { src: "/memories/dj8.jpg", event: "DJ NIGHT" },
-  //{ src: "/memories/dj9.jpg", event: "DJ NIGHT" },
+  { src: "/memories/dj9.jpg", event: "DJ NIGHT" },
   { src: "/memories/dj10.jpg", event: "DJ NIGHT" },
+  { src: "/memories/dj11.jpg", event: "DJ NIGHT" },
+  { src: "/memories/dj12.jpg", event: "DJ NIGHT" },
+
 
   { src: "/memories/tech1.jpg", event: "TECH FEST" },
 
   { src: "/memories/other1.jpg", event: "OTHER EVENT" },
   { src: "/memories/other2.jpg", event: "OTHER EVENT" },
+  { src: "/memories/other3.jpg", event: "OTHER EVENT" },
+
 
 ];
 

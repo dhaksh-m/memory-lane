@@ -19,7 +19,7 @@ const facultyData = [
   {
     name: "Anita Mam",
     subject: "Physics",
-    image: "/faculty/anita.jpg",
+    image: "/faculty/dhaksh.jpg",
     semester: "sem2",
   },
   // 👉 Add more faculty here
