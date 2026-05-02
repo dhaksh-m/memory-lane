@@ -10,6 +10,7 @@ const navItems = [
   { name: "Yearbook", href: "/yearbook" },
   { name: "Media Vault", href: "/vault" },
   { name: "The Wall", href: "/wall" },
+  { name: "Faculty", href: "/faculty" }
 ];
 
 export default function Navbar() {
