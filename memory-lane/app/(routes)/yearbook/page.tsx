@@ -70,25 +70,23 @@ const memories = [
 ];
 
 
-{/* Intro */}
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-center pt-32 mb-16 px-4"
-      >
-        <h1 className="text-4xl md:text-6xl font-serif mb-4">
-          The Class of '29 ✨
-        </h1>
+export default function YearbookPage() {
+  return (
+    <main className="min-h-screen bg-[#020617] text-white pt-32 pb-24 px-6 md:px-12">
 
-        <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
-          A collection of faces, stories, and moments that defined us.
-          Late-night laughs, silent struggles, and friendships that turned into forever.
-          This isn’t just a yearbook — it’s a piece of who we were.
-        </p>
-      </motion.div>
+      <div className="max-w-7xl mx-auto">
 
-      
+        {/* Title */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-6xl font-semibold mb-4">
+            The Yearbook ✨
+          </h1>
+          <p className="text-gray-400">
+            Our memories, frozen in time.
+          </p>
+        </div>
+
+
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
 
@@ -119,4 +117,8 @@ const memories = [
           ))}
 
         </div>
+      </div>
+    </main>
+  );
+}
 
