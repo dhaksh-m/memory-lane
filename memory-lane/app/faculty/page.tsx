@@ -4,6 +4,7 @@ import { useState } from "react";
 import PolaroidCard from "@/components/PolaroidCard";
 
 const facultyData = [
+    //sem 1
   {
     name: "Swathi Mam",
     subject: "English",
@@ -11,14 +12,76 @@ const facultyData = [
     semester: "sem1",
   },
   {
-    name: "Ramesh Sir",
-    subject: "Mathematics",
+    name: "Hemalatha Mam",
+    subject: "M1",
     image: "/faculty/ramesh.jpg",
     semester: "sem1",
   },
   {
-    name: "Anita Mam",
-    subject: "Physics",
+    name: "Mary Mam",
+    subject: "Chemistry",
+    image: "/faculty/ramesh.jpg",
+    semester: "sem1",
+  },
+  {
+    name: "Vadivukarassi Mam",
+    subject: "PPS",
+    image: "/faculty/swathi.jpg",
+    semester: "sem1",
+  },
+  {
+    name: "Kishore Sir",
+    subject: "Engineering Workshop",
+    image: "/faculty/swathi.jpg",
+    semester: "sem1",
+  },
+  {
+    name: "Suresh Sir",
+    subject: "EDC",
+    image: "/faculty/swathi.jpg",
+    semester: "sem1",
+  },
+
+  //sem 2
+  {
+    name: "Samba Shiva Rao Sir",
+    subject: "M2",
+    image: "/faculty/dhaksh.jpg",
+    semester: "sem2",
+  },
+  {
+    name: "Keerthana Mam",
+    subject: "DS",
+    image: "/faculty/dhaksh.jpg",
+    semester: "sem2",
+  },
+  {
+    name: "Sowjanya Mam",
+    subject: "AEP",
+    image: "/faculty/dhaksh.jpg",
+    semester: "sem2",
+  },
+  {
+    name: "Swetha Mam",
+    subject: "BEE",
+    image: "/faculty/dhaksh.jpg",
+    semester: "sem2",
+  },
+   {
+    name: "Raghavendra Sir",
+    subject: "ED & CDA",
+    image: "/faculty/dhaksh.jpg",
+    semester: "sem2",
+  },
+  {
+    name: "Karthik Anand Sir",
+    subject: "IT Workshop",
+    image: "/faculty/dhaksh.jpg",
+    semester: "sem2",
+  },
+  {
+    name: "Mahesh Sir",
+    subject: "Python",
     image: "/faculty/dhaksh.jpg",
     semester: "sem2",
   },
@@ -29,12 +92,12 @@ const semesters = [
   "all",
   "sem1",
   "sem2",
-  "sem3",
-  "sem4",
-  "sem5",
-  "sem6",
-  "sem7",
-  "sem8",
+  //"sem3",
+  //"sem4",
+  //"sem5",
+  //"sem6",
+  //"sem7",
+ //"sem8",
 ];
 
 export default function FacultyPage() {
