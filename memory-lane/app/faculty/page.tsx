@@ -58,13 +58,13 @@ const facultyData = [
   {
     name: "Sowjanya Mam",
     subject: "AEP",
-    image: "/faculty/swathi.jpg",
+    image: "/faculty/sowjanya.jpg",
     semester: "sem2",
   },
   {
     name: "Swetha Mam",
     subject: "BEE",
-    image: "/faculty/swathi.jpg",
+    image: "/faculty/swetha.jpg",
     semester: "sem2",
   },
    {
@@ -87,7 +87,7 @@ const facultyData = [
   },
   {
     name: "Sirisha Mam",
-    subject: "Python",
+    subject: "Lab Incharge",
     image: "/faculty/siri.jpg",
     semester: "sem2",
   },
