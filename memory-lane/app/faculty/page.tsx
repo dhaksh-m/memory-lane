@@ -44,12 +44,6 @@ const facultyData = [
 
   //sem 2
   {
-    name: "Samba Shiva Rao Sir",
-    subject: "M2",
-    image: "/faculty/samba.jpg",
-    semester: "sem2",
-  },
-  {
     name: "Keerthana Mam",
     subject: "DS",
     image: "/faculty/keerthana.jpg",
@@ -83,6 +77,12 @@ const facultyData = [
     name: "Mahesh Sir",
     subject: "Python",
     image: "/faculty/mahesh.jpg",
+    semester: "sem2",
+  },
+  {
+    name: "Samba Shiva Rao Sir",
+    subject: "M2",
+    image: "/faculty/samba.jpg",
     semester: "sem2",
   },
   {
